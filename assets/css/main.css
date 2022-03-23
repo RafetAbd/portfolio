@@ -2719,7 +2719,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: linear-gradient(to bottom, hsl(176, 63%, 48%), #fff); 
+		background: linear-gradient(to bottom, rgb(56, 85, 83), #fff); 
 		color: hsl(163, 93%, 5%);
 		height: 100%;
 		overflow-y: auto;
@@ -2775,8 +2775,8 @@ input, select, textarea {
 			#header > header p {
 				color: hsl(0, 0%, 0%);
 				/* text-shadow: 1px 1px 1px #c9c7c7; */
-				font-weight: bold;
-				font-size: 25px;
+				/* font-weight: bold; */
+				font-size: 22px;
 				margin: 1em 0 0 0;
 			}
 
