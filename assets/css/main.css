@@ -2719,7 +2719,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: linear-gradient(to bottom, rgb(56, 85, 83), #fff); 
+		background: linear-gradient(to bottom, hsl(0, 0%, 33%), #fff); 
 		color: hsl(163, 93%, 5%);
 		height: 100%;
 		overflow-y: auto;
