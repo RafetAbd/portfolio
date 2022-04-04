@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #66fcf1;
+		color: #FFFDFA;
 		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		font-weight: 700;
 		line-height: 1em;
@@ -154,7 +154,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.75em;
+		font-size: 4em;
 		line-height: 1.5em;
 	}
 
@@ -1787,14 +1787,14 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #66fcf1;
+		color: #FFFDFA;
 		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-		font-size: 3.5em;
+		font-size: 5.5em;
 	}
 
 		header.major h2 + p {
-			color: #66fcf1;
-			font-size: 1.75em;
+			color: #FFFDFA;
+			font-size: 2em;
 			font-weight: 700;
 			margin-top: -0.75em;
 		}
@@ -3178,7 +3178,7 @@ input, select, textarea {
 			}
 
 			header.major h2 {
-				font-size: 2.5em;
+				font-size: 2em;
 			}
 
 				header.major h2 + p {
