@@ -1707,12 +1707,10 @@ input, select, textarea {
 		}
 
 /* Container */
-	#one {
-		height: 100vh;
-	}
 
 	#main-section {
 		font-size: 1.2em;
+		padding-bottom: 7%
 	}
 
 	.container {
@@ -1747,16 +1745,28 @@ input, select, textarea {
 
 		@media screen and (max-width: 1024px) {
 
+
 			.container {
 				width: 100% !important;
+			}
+
+  			#main-section {
+    			font-size: 0.8em;
+    			padding-bottom: 7%;
 			}
 
 		}
 
 		@media screen and (max-width: 480px) {
 
+
 			.container {
 				max-width: calc(100% - 3.375em);
+			}
+
+			#main-section {
+    			font-size: 0.8em;
+    			padding-bottom: 7%;
 			}
 
 		}
@@ -2340,6 +2350,10 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
+
+			header.major h2 {
+				font-size: 4em;
+			}
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -3149,6 +3163,10 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+
+		header.major h2 {
+			font-size: 4em;
+		}
 
 			body, input, select, textarea {
 				font-size: 12pt;
