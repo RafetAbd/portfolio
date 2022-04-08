@@ -1707,6 +1707,13 @@ input, select, textarea {
 		}
 
 /* Container */
+	#one {
+		height: 100vh;
+	}
+
+	#main-section {
+		font-size: 1.2em;
+	}
 
 	.container {
 		margin: 0 auto;
@@ -1794,7 +1801,7 @@ input, select, textarea {
 
 		header.major h2 + p {
 			color: #FFFDFA;
-			font-size: 2em;
+			font-size: 3em;
 			font-weight: 700;
 			margin-top: -0.75em;
 		}
@@ -2165,7 +2172,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 5px;
 			display: block;
-			border: solid white 1px;
+			border: solid #252525 1px;
 		}
 
 		.projects {
@@ -2719,8 +2726,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: linear-gradient(to bottom, hsl(0, 0%, 33%), #fff); 
-		color: hsl(163, 93%, 5%);
+		background: #00000076;
+		color: hwb(0 100% 0%);
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2735,18 +2742,18 @@ input, select, textarea {
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: hsl(0, 0%, 0%);
-				font-size: 35px;
+				color: hwb(0 100% 0%);
+				font-size: 1.5em;
 				font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 				/* text-shadow: 1px 1px 1px #ffffff; */
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #ffffff;
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #ffffff;
 		}
 
 			#header a:hover {
@@ -2773,7 +2780,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: hsl(0, 0%, 0%);
+				color: hwb(0 100% 0%);
 				/* text-shadow: 1px 1px 1px #c9c7c7; */
 				/* font-weight: bold; */
 				font-size: 22px;
@@ -2796,7 +2803,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: hsl(0, 0%, 0%);
+					color: hwb(0 100% 0%);
 				}
 
 		#header > nav {
@@ -2824,15 +2831,15 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: hsl(0, 100%, 0%) !important;
+						color: white !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: hsl(0, 0%, 56%) !important;
+							background: #353535;
+							color: rgb(255, 255, 255) !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2842,11 +2849,17 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #000000;
-		padding-right: 23em;
+		background: linear-gradient(
+    rgba(0, 0, 0, 0.583), 
+    rgba(0, 0, 0, 0.537)), 
+    url('../../images/most important one.jpeg') center center no-repeat fixed;
+	background-size: cover;
+		 padding-right: 23em;
 	}
 
 /* Main */
+
+
 
 	#main > section {
 		border-top: solid 1px rgb(91, 91, 91);
@@ -2989,6 +3002,7 @@ input, select, textarea {
 			}
 
 		/* Header */
+		
 
 			#header {
 				-moz-backface-visibility: hidden;
@@ -3177,12 +3191,12 @@ input, select, textarea {
 				display: none;
 			}
 
-			header.major h2 {
+			.major h2 {
 				font-size: 2em;
 			}
 
-				header.major h2 + p {
-					font-size: 1.5em;
+				header.major  p {
+					font-size: 5.5em;
 				}
 
 		/* Features */
