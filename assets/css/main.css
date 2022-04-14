@@ -132,6 +132,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2.25em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1710,7 +1711,7 @@ input, select, textarea {
 
 	#main-section {
 		font-size: 1.2em;
-		padding-bottom: 7%
+		padding-bottom: 7%;
 	}
 
 	.container {
